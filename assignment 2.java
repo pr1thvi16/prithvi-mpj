@@ -1,4 +1,3 @@
-// Base class
 class Employee {
    protected double salary;
 
@@ -10,8 +9,6 @@ class Employee {
        System.out.println("Salary: " + salary);
    }
 }
-
-// Derived class 1
 class FullTimeEmployee extends Employee {
 
    FullTimeEmployee(double salary) {
@@ -30,8 +27,6 @@ displaySalary();
        System.out.println();
    }
 }
-
-// Derived class 2
 class InternEmployee extends Employee {
 
    InternEmployee(double salary) {
@@ -50,8 +45,6 @@ class InternEmployee extends Employee {
        System.out.println();
    }
 }
-
-// Main class
 public class ASS2 {
    public static void main(String[] args) {
 
